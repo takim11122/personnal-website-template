@@ -1,0 +1,559 @@
+*{margin:0;padding:0}
+body{
+    font-family:arial;
+    font-size:15px;
+    line-height:25px;
+  
+    }
+    header{
+        background:
+        url(image/background2.jpg);
+        background-size:cover;
+    }
+#primarymenu{list-style:none;float:right}
+#primarymenu li{
+    float:left;
+    position: relative;
+}
+#displaysize{
+    width:1150px;
+    margin:auto;
+}
+#logodiv{
+    width:200px;
+    float:left;
+    margin-top:10px
+}
+#logodiv img{width:100%}
+#primarymenu li a{
+    text-decoration:none;
+    color:#222;
+    font-weight:bold;
+    padding:20px 30px;
+    display:block;
+}
+ #myhome a{color:#00f;}
+#primarymenu li a img{
+    width:100px
+}
+#primarymenu li a:hover{color:#00f;transition:0.2s}
+nav#mainnav{
+    width:100%;
+    display: table;
+}
+menu#manucontainer{
+    width:950px;
+    float:right
+}
+
+
+
+ul#submenu li {
+    float: none;
+    list-style: none;
+}
+#submenu li a {
+    padding: 15px 15px;
+}
+
+ul#submenu {
+    position: absolute;
+    top: 65px;
+    width: 260px;
+
+    transform:scaley(0);
+    transform-origin: top;
+    transition:0.5s
+}
+#primarymenu li:hover #submenu{
+    transform:scaley(1)
+}
+#menu span{
+    background:black;
+    width:35px;
+    height: 3px;
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 4px;
+    transition:0.5s
+}
+
+#menu #last_span{
+  width:28px;
+  margin-left:auto;
+  margin-bottom: 0;
+}
+
+#menu:hover #last_span{
+    width:35px;
+}
+#menu{
+    width:35px;
+    cursor:pointer;
+    margin-top: 4px;
+}
+
+/*welcome takim*/
+#welcome{
+  width: 1150px;
+  height:600px;
+  margin:auto;
+  
+}
+#welcomeheader{
+    width:575px;
+    float:left;
+}
+#welcomeheader h1{
+    font-size: 60px;
+    line-height: 78px;
+}
+#welcomeheader p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #797575;
+}
+#headerblock{
+    margin-top:120px;
+}
+#blockbuttton {
+    margin-top: 30px;
+    width: 168px;
+    
+}
+#blockbuttton:hover a{
+    background:#fa7070;
+    text-decoration:underline;
+}
+#blockbuttton a{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: none;
+    width:100px;
+    background:#00f;
+    text-align: center;
+    padding: 17px 35px;
+    border-radius: 5px;
+    
+    transition:0.1s
+}
+#sidephoto{
+    width:575px;
+    float:right;
+}
+#mainphoto{
+   margin-top:120px;
+   float:right;
+}
+#mainphoto img{
+    width:100%
+}
+/*border*/
+#border{
+    border-top:1px solid #f3ebeb
+}
+
+/*services*/
+#services{
+    margin-top:100px;
+    margin-bottom: 250px;
+}
+#service-header{
+    text-align:center;
+    margin-bottom:50px
+}
+#service-header h1{
+    font-size: 35px;
+    font-family: arial black;
+    color: #000000c7;
+}
+#service-menu{
+    width:1150px;
+    margin:auto
+}
+#my-menu{
+    display:inline-block;
+    margin:0px 15px;
+    width: 290px;
+    text-align:center;
+    background:#f9f9fc;
+    padding: 35px 30px 45px 30px;
+    transition:0.5s;
+}
+#my-menu:hover{
+    background:white;
+    box-shadow: 0px 6px 20px -7px black;
+}
+#my-menu img{
+    width: 47px;
+    margin-bottom: 8px;
+}
+
+#my-menu h2{
+    color: #0000009c;
+    font-size: 20px;
+    margin:10px 0px;
+}
+#my-menu p{
+    font-size:15px;
+    line-height: 30px;
+    color: #9998ab;
+    margin-bottom:20px;
+}
+#menubutton{
+    margin:auto;
+    margin-top: 30px;
+}
+#menubutton a{
+    color:#00f;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: none;
+    width:100px;
+    border: 1px solid #00f;
+    text-align: center;
+    padding: 15px 28px;
+    border-radius: 5px;
+    transition:0.5s;
+}
+#my-menu:hover #menubutton a{background:#00f;color:white;text-decoration:underline;}
+
+/*digital marketing section*/
+
+#marketing{
+    margin-top: 150px;
+    display: block;
+    position:relative
+} 
+#marketing-block{
+    width:1150px;
+    height: 345px;
+    margin:auto;
+    display: block;
+}
+#marketing #main_header{
+    color:#00f;
+    margin-bottom:5px;
+    position:absolute;
+    left: 7.5%;
+    /* bottom: 104%; */
+    z-index: 1;
+    top: -12%;
+    font-weight: 700;
+    /* margin-right: -16px; */
+}
+
+#leftblock{
+    width:525px;
+    float:left;
+}
+
+
+#leftblock h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #1f1e1e;
+}
+#leftblock p{
+    margin-bottom:10px;
+        font-size: 16px;
+        color: #a59e9e;
+}
+span {
+    font-weight: bold;
+    color: #5d5656;
+}
+#slider i{color:#00f}
+#slider:hover span{color:white}
+#slider:hover  i {
+    color:white
+}
+
+#slider{
+    background: #f8faff;
+    padding: 10px 0px 10px 20px;
+    width: 224px;
+    margin: 4px 15px 10px 0px;
+    display:inline-block;
+    border-radius: 5px;
+    transition:0.5s;
+}
+
+#slider:hover{
+    background:#00f;
+}
+#leftblock #marketing-button{
+    margin-top: 35px;
+}
+#leftblock #marketing-button a {
+    width: 100px;
+    padding: 15px 45px;
+    background:#00f;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:14px;
+    font-family:arial;
+    transition:0.1s
+}
+#leftblock #marketing-button a:hover{
+    background:#fa7070;
+    text-decoration:underline
+}
+#right-block{
+    width:575px;
+    float:right;
+    height: 77px;
+}
+#right-block-container img{
+    width:100%;
+    height: 340px;
+}
+
+
+
+
+/*digital marketing2 section*/
+
+#marketing2{
+    margin-top: 150px;
+}
+
+#marketing2#leftblock{
+    width:525px;
+    float:right;
+}
+
+#marketing2 #right-block{
+    width:575px;
+    float:left
+}
+
+
+/*feature block*/
+
+#features-header{
+    text-align:center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+#features-header h1{
+    font-size: 40px;
+    line-height: 45px;
+    font-family: arial black;
+    margin-top: 10px;
+}
+#features-header span{
+    color:#00f
+}
+
+#features-block{
+    width:1150px;
+    margin:auto
+}
+#features-block img{
+    width: 40px;
+    margin-top: 15px;
+}
+#features-block ul li{
+    display:inline-block;
+    width: 178px;
+    height: 110px;
+    max-height: 110px;
+    text-align:center;
+    padding: 15px 2px;
+    margin-left: 6px;
+    box-shadow:0 10px 40px 0 rgba(107,125,179,.11);
+    font-family:arial black;
+    border-radius:2px;
+    transition:0.5s
+}
+#features-block ul li:hover{
+    background:#00f;
+    cursor:pointer
+}
+#features-block ul li a{
+    text-decoration:none;
+    color:#007bff;
+    transition:0.5s
+}
+#features-block ul li:hover a{
+    color:white;
+        text-decoration:underline
+}
+#features-block ul li h3{
+    margin-top: 25px;
+}
+
+/*repotation_box*/
+.site_repotation{
+    background:#00f;
+    margin-top:100px;
+    padding: 80px 0px;
+}
+#repotation_all_box{
+    width:1150px;
+    margin:auto
+}
+#repotation_box{
+    width: 200px;
+    background:#00f;
+    text-align:center;
+    border:1px dashed #ffffff4d;
+    padding: 50px 35px;
+    display:inline-block;
+    margin:0px 6px;
+    border-radius:5px;
+    transition:0.5s
+}
+#repotation_box:hover{
+    border-color:white;
+    transform:translatey(-10px)
+}
+#repotation_box span{
+    color:white;
+    font-size:45px
+}
+#repotation_box p{
+    color:white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/*our expert team*/
+section#about_team {
+    margin-top: 100px;
+}
+#about_team span{
+    color:#00f;
+    font-size: 20px;
+}   
+#team_header{
+    width: 600px;
+    margin:auto;
+    text-align:center;
+}
+#team_header h1{
+    font-size: 40px;
+    color: #524747;
+    margin: 20px 0px;
+    font-family:arial black;
+}
+#team_box{
+    width: 350px;
+    text-align:center;
+    border: 1px  solid #a5a5a54d;
+    padding-bottom: 15px;
+    display:inline-block;
+    margin: 0px 14px 20px;
+    transition:1s;
+    overflow:hidden;   
+    position:relative 
+}
+#team_box:hover{
+    background:#00f;
+}
+#box_img{
+    height:350px;
+    overflow:hidden;
+}
+#team_box img{
+    width:100%;
+    transition:1s;
+    height:350px;
+    max-height:350px;
+    
+    
+}
+#team_box:hover img{
+    transform:scale(1.2)
+}
+#social_link{
+    width:120px;
+    background: white;
+    z-index:2;
+    position:absolute;
+    padding: 8px 6px;
+    border-radius: 25px;
+    top: 15%;
+    left: 30%;
+    opacity:0;
+    transition:all 0.5s;
+}
+#team_box:hover #social_link{
+    transform:translatey(100px);
+    opacity:100
+}
+#social_link i{
+    font-size: 21px;
+    color:#00f;
+    margin: 5px 2px 0px 2px;
+}
+#social_link i:hover{
+    color:#fa7070;
+}
+#team_box span{
+    font-size:15px;  
+}
+#team_box:hover .box_span{
+    color:white;
+}
+
+#team_box h2{
+    color: #504040;
+    font-size: 25px;
+
+    margin:35px 0px 10px 0px;
+}
+#team_box:hover .box_h2{
+    color:white;
+}
+#team_display{
+    width: 1150px;
+    margin:auto;
+    margin-top: 65px;
+}
+
+/*footer*/
+#footer_header{
+    background:#00f;
+    padding:70px 0px;
+}
+
+#header_content{
+    width:1150px;
+    margin:auto;
+    position: relative;
+}
+#header_content span{
+    color: white;
+    margin-bottom: 40px;
+    display: block;
+}
+#header_content h1 {
+    color: white;
+    font-size: 55px;
+    font-family: arial black;
+}
+#header_button{
+    position: absolute;
+    right: 0%;
+    bottom: -40%;
+}
+
+#header_button a{
+    background:#fa7070;
+    padding: 18px 30px;
+    text-decoration:none;
+    color:white;
+    border-radius: 5px;
+}
+#header_button a:hover{
+    background:black;
+    text-decoration:underline
+}
+
